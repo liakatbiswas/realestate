@@ -18,13 +18,13 @@
     <link href="{{ asset('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap') }}"
         rel="stylesheet">
     <!-- core:css -->
-    <link rel="stylesheet" href="{{ asset('assets/vendors/core/core.css') }}">
+    <link rel="stylesheet" href="{{ asset('backend/assets/vendors/core/core.css') }}">
     <!-- inject:css -->
-    <link rel="stylesheet" href="{{ asset('assets/fonts/feather-font/css/iconfont.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/vendors/flag-icon-css/css/flag-icon.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('backend/assets/fonts/feather-font/css/iconfont.css') }}">
+    <link rel="stylesheet" href="{{ asset('backend/assets/vendors/flag-icon-css/css/flag-icon.min.css') }}">
     <!-- Layout styles -->
-    <link rel="stylesheet" href="{{ asset('assets/css/demo2/style.css') }}">
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" />
+    <link rel="stylesheet" href="{{ asset('backend/assets/css/demo2/style.css') }}">
+    <link rel="shortcut icon" href="{{ asset('backend/assets/images/favicon.png') }}" />
     <style>
         .auth-login-side-wrapper {
             width: 100%;
@@ -99,11 +99,11 @@
     </div>
 
     <!-- core:js -->
-    <script src="{{ asset('assets/vendors/core/core.js') }}"></script>
+    <script src="{{ asset('backend/assets/vendors/core/core.js') }}"></script>
 
     <!-- inject:js -->
-    <script src="{{ asset('assets/vendors/feather-icons/feather.min.js') }}"></script>
-    <script src="{{ asset('assets/js/template.js') }}"></script>
+    <script src="{{ asset('backend/assets/vendors/feather-icons/feather.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/template.js') }}"></script>
 </body>
 
 </html>
